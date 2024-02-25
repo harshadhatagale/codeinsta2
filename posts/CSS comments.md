@@ -1,7 +1,7 @@
 ---
 title: Understanding CSS comments
 date: 25 feb 2024
-thumbnail: /blog_thumb.jpg
+thumbnail: /comments1.jpg
 ---
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CSS *comments* are simply phrases or sentences within CSS ( Cascading Style Sheets ) that are rendred in browser or simply that are not displeyed on web browser. They served as notes or explanations for developers.
 For example:
