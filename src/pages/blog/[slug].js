@@ -26,7 +26,7 @@ export default function DetailPostView({ post }) {
   return (
     <>
      <HeadTag title={post.slug.replace(".md","")} description={post.content.slice(0,160)} canUrl={`https://codeinsta.tech${currentUrl}`}/>
-    <div className=" dark:text-white lg:text-lg leading-loose lg:px-20 md:px-18 px-5">
+    <div className=" dark:text-white leading-loose lg:px-20 md:px-18 px-5">
     <div>
        <Header2 content= {post.slug.replace(".md","")} thumbnail={post.thumbnail} date={post.date} />
        <div className={styles.content}>

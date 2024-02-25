@@ -1,4 +1,8 @@
-
+.content h2{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
 .content ul{
     list-style-type: disc;
 }
@@ -13,16 +17,10 @@
     margin-top: 1em;
     margin-bottom: 1em;
 }
-.content ol li em{
-    font-size: 1.1em;
-    font-family: monospace;
-}
 .content pre{
     margin-top: 1em;
     margin-bottom: 1em;
-}
-.content ol{
-    list-style-type: decimal;
+
 }
 .content pre code{
     border-radius: 1em;
@@ -34,19 +32,18 @@
     
 }
 .content em{
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
     font-style: normal;
-    font-weight: bold;
-}
-.content ul li{
-    font-weight: 800;
-    text-transform: capitalize;
-    cursor: pointer;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    border-radius: 2px;
+  font-weight: bold;
+    background: rgb(246, 151, 151);
+    color: rgb(194, 1, 1);
 }
 .content h3:hover{
     color: cyan;
+}
+
+@media only screen and (min-width: 1024px){
+    .content p{
+        font-size: 15px;
+    }
 }
