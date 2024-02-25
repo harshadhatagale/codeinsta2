@@ -1,0 +1,52 @@
+
+.content ul{
+    list-style-type: disc;
+}
+.content img{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 1em;
+    border: 1px solid grey;
+}
+
+.content p{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.content ol li em{
+    font-size: 1.1em;
+    font-family: monospace;
+}
+.content pre{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.content ol{
+    list-style-type: decimal;
+}
+.content pre code{
+    border-radius: 1em;
+}
+.content h3{
+    font-size: 1.5em;
+    line-height: 1em;
+    font-family: sans-serif;
+    
+}
+.content em{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-style: normal;
+    font-weight: bold;
+}
+.content ul li{
+    font-weight: 800;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.content h3:hover{
+    color: cyan;
+}

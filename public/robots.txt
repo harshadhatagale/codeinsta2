@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /private/
+Disallow: /secret/
+Sitemap:https://www.codeinsta.tech/sitemap.xml

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+::selection{
+    background: rgb(72, 98, 247);
+    color: white;
+}
+.nav.active{
+    height: 100vh;
+    flex-direction: column;
+}
+.links.active{
+    display: block;
+}
+.nav{
+    transition: 0.5s;
+}
+.links.active ul{
+    display: flex;
+}
+.logo{
+    color: transparent;
+    background: linear-gradient(to right, purple, orange);
+    -webkit-background-clip: text;
+    font-family: serif;
+}
+.content{
+    background: blue;
+}
