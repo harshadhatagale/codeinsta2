@@ -7,7 +7,7 @@ export default function Layout({ children }) {
     <>
       <NextTopLoader showSpinner={false} speed={300} />
       <Nav />
-      <main className='pt-28 md:px-24 px-5 dark'>
+      <main className='pt-28 lg:px-28 md:px-24 px-3 dark'>
         {children}
         <Analytics />
       </main>

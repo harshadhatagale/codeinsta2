@@ -1,7 +1,7 @@
 ---
 title: Understanding CSS comments
 date: 25 feb 2024
-thumbnail: /comments1.jpg
+thumbnail: /code.jpg
 ---
 
 ## What are CSS Comments ?
@@ -21,7 +21,7 @@ body{
 }
 ```
 
-## Why *comments* are important in CSS ?
+## Why comments are important in CSS ?
 
 Comments in code, including CSS, are needed for documentation, code understanding, debugging, collaboration, code maintenance, educational purposes, leaving temporary notes, and excluding code. They enhance readability, facilitate communication among developers, and provide valuable context for both current and future work on the codebase.
 
