@@ -1,6 +1,3 @@
-
-import Header from "@/components/header1";
-
 import { getPostSlugs, getPostByslug } from "../../utils/fetchPosts";
 import HeadTag from "@/components/HeadTag";
 import LatestPosts from "@/components/Blog/LatestPost";
