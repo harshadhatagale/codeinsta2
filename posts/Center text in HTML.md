@@ -1,7 +1,7 @@
 ---
 title: Center Text in HTML
 date: 26 feb 2024
-thumbnail: /post2_thumb.png
+thumbnail: /post2_thumb.jpg
 ---
 
 In the world of web design, achieving proper text alignment is important for creating visual appealing & well-formated content.
