@@ -7,9 +7,8 @@ const poppins = Poppins({
 export default function Header2(props) {
     return (
         <>
-        <div className='w-full dark:bg-slate-800 border bg-slate-800  border-gray-200 rounded-lg py-2 px-1 md:py-4 md:px-2 mb-5'>
-            <h1 className={` ${poppins.className} capitalize dark:text-white  text-white font-bold text-xl px-2 md:text-xl lg:text-3xl`}>{props.content}</h1>
-            <p className={`${poppins.className} text-gray-300 text-right text-sm my-2`}>{props.date}</p>
+        <div className='w-full flex justify-center items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  border-gray-200 py-10 md:py-15 md:px-2 mb-5 px-2'>
+               <h1 className={` ${poppins.className}  capitalize dark:text-white  text-white font-bold text-2xl px-2 md:text-xl lg:text-3xl`}>{props.content}</h1>
         </div>
         </>
     )
