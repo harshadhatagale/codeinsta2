@@ -32,17 +32,9 @@
   <priority>1.0</priority>
 </url>
 <url>
-  <loc>https://www.codeinsta.tech/blog/How%20to%20make%20login%20form%20with%20HTML.md</loc>
-  <lastmod>2024-02-29T05:00:44+00:00</lastmod>
-  <priority>0.80</priority><changefreq>daily</changefreq>
-  <priority>1.0</priority>
-</url>
-<url>
-  <loc>https://www.codeinsta.tech/blog/how%20to%20link%20in%20HTML.md</loc>
+  <loc>https://www.codeinsta.tech/blog/How%20to%20link%20in%20HTML.md</loc>
   <lastmod>2024-02-29T05:00:44+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>1.0</priority>
 </url>
-
-
 </urlset>

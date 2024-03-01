@@ -5,7 +5,7 @@ thumbnail: /post2_thumb.jpg
 ---
 
 In the world of web design, achieving proper text alignment is important for creating visual appealing & well-formated content.
-One common requirements is *centering  text*, and in this post , we"ll explore different methods to achieve this in *HTML*. 
+One common requirements is *centering  text*, and in this post , we"ll explore different methods to *center text in HTML*. 
 
 ---
 
@@ -30,7 +30,7 @@ One common requirements is *centering  text*, and in this post , we"ll explore d
 ---
 
 2. **Center Tag**:
-- While this tag is not recommended for modern styling. The <center> tag is historically used for text centering.
+- While this tag is not recommended for modern styling. The <center> tag is historically used for centering text.
 
 ```html
 <center>
