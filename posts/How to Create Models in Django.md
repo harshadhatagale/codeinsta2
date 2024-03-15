@@ -1,3 +1,9 @@
+---
+title: CSS comments
+date: 25 feb 2024
+thumbnail: /code.jpg
+---
+
 # How to Create Models in Django
 
 In this blog post, we will explore how to create models in Django, which is an essential part of building web applications. Models provide a way to define the structure of the data in your application and enable you to interact with the database.
