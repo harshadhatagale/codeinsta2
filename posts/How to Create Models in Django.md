@@ -97,7 +97,8 @@ Navigate to `http://localhost:8000/admin` in your web browser, and you will see 
 ```
 Enter the required information and remember your credentials.
 
-Once logged in, you will see the `Book` model listed. Clicking on it will allow you to add, edit, or delete book entries.
+Once logged in, you will see the *Book* model listed. Clicking on it will allow you to add, edit, or delete book entries.
+
 ---
 ## Conclusion
 
