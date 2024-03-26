@@ -9,7 +9,18 @@ import "highlight.js/styles/atom-one-dark.css"
 import styles from "../../styles/post_detail_view.module.css"
 import HeadTag from '@/components/HeadTag';
 import { Roboto } from 'next/font/google';
-
+import rehypeSlug from 'rehype-slug';
+const components={
+  h1:({node,...props})=>(
+    <h1 id={props.id}{...props}>{props.children}</h1>
+  ),
+  h2:({node,...props})=>(
+    <h2 id={props.id}{...props}>{props.children}</h2>
+  ),
+  h3:({node,...props})=>(
+    <h3 id={props.id}{...props}>{props.children}</h3>
+  )
+}
 const roboto= Roboto({
   subsets:["latin"],
   weight:["100","300","400","500","700","900"]
@@ -19,6 +30,7 @@ const merry= Merriweather({
   weight:["300","400","700","900"]
 })
 export default function DetailPostView({ post }) {
+
   const router = useRouter();
   const currentUrl= router.asPath;
   return (

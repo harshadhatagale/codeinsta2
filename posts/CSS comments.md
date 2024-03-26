@@ -1,5 +1,5 @@
 ---
-title:CSS comments
+title: CSS comments
 date: 25 feb 2024
 thumbnail: /code.jpg
 ---
