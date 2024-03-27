@@ -7,6 +7,6 @@ const popins= Poppins({
 })
 export default function Header(props) {
   return (
-    <div> <h2 className={` ${popins.className} my-5 text-black dark:text-white font-bold text-l`}>{props.content}</h2></div>
+    <div> <h2 className={` ${popins.className} my-2 text-black dark:text-white font-bold text-xl`}>{props.content}</h2></div>
   )
 }

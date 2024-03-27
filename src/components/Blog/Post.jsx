@@ -5,8 +5,8 @@ import code from "../../../public/code.jpg"
 export default function Post(props) {
   return (
     <>
-      <div className="flex bg-gray-100 shadow-sm  flex-col p-2 gap-3  dark:bg-black border border-gray-500 rounded-lg min-w-220 max-w-56">
-        <Image src={props.thumbnail} alt={props.title} width={220} height={220} className='rounded-lg border border-gray-500'/>
+      <div className="flex w-4/5 bg-gray-100 shadow-sm  flex-col p-2 gap-3  dark:bg-black border border-gray-500 rounded-lg">
+        <Image src={props.thumbnail} alt={props.title} width={220} height={220} className='w-full rounded-lg border border-gray-500'/>
         <div className="flex flex-col gap-1">
           <p className='hidden'>{props.id}</p>
           <p className='text-right text-gray-400 text-sm'>{props.date}</p>
