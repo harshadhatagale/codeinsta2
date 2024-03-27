@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import code from "../../../public/code.jpg"
 export default function Post(props) {
   return (
     <>
