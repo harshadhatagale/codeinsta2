@@ -6,8 +6,6 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <meta name="google-site-verification" content="cC14gQ_L4efyo09WY__vfk659sty_bFqlShlO3Z1OyY" />
- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3944085814863048"
-     crossorigin="anonymous"></script>
         <script dangerouslySetInnerHTML={{
           __html: `
   (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -17,6 +15,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-PP9M53RB');
   `
         }} />
+        <link rel="icon" type="image/png" sizes="32x32" href="logo.png" />
       </Head>
       <Layout>
         <main>
