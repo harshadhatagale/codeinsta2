@@ -14,6 +14,7 @@ export function getPostByslug(slug){
         title: data.title || "",
         date: data.date || "",
         thumbnail: data.thumbnail || "",
+        description: data.description || "",
         content,
     }
 }

@@ -28,7 +28,7 @@ export default function DetailPostView({ post }) {
       <title>{post.title}</title>
       <meta name='description' content={post.content} />
       <meta property='og:title' content={post.title} />
-      <meta property='og:description' content={post.content} />
+      <meta property='og:description' content={post.description} />
       <meta property='og:image' content={post.thumbnail} />
       <meta property='og:url' content='{`https://codeinsta.tech/blog/${post.slug}`}'/>
       <meta property='og:type' content='article'/>
