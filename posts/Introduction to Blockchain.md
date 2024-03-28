@@ -27,9 +27,9 @@ thumbnail: /Post_Images/intro-to-blockchain.jpg
 
 ### Blockchain technology is significant for several reasons:
 
-- **Security**: It provides a high level of security due to its decentralized nature, making it nearly impossible to breach.\
-- **Transparency**: All transactions are visible to all participants, reducing the chance of discrepancies.\
-- **Cost-Effective**: It reduces overhead and transaction costs by eliminating the need for third parties or middlemen.\
-- **Traceability**: It ensures the traceability of multistep transactions, which is essential for contract management and auditing the origin of products.\
-- **Innovation**: Blockchain is at the heart of cryptocurrencies like Bitcoin and has evolved to become a solution for managing global industries.\
+- **Security**: It provides a high level of security due to its decentralized nature, making it nearly impossible to breach.
+- **Transparency**: All transactions are visible to all participants, reducing the chance of discrepancies.
+- **Cost-Effective**: It reduces overhead and transaction costs by eliminating the need for third parties or middlemen.
+- **Traceability**: It ensures the traceability of multistep transactions, which is essential for contract management and auditing the origin of products.
+- **Innovation**: Blockchain is at the heart of cryptocurrencies like Bitcoin and has evolved to become a solution for managing global industries.
 
