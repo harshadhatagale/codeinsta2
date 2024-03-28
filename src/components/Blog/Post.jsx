@@ -11,7 +11,7 @@ export default function Post(props) {
           <p className='text-right text-gray-400 text-sm'>{props.date}</p>
           <p className='text-lg font-bold lg:p-2'>{props.title}</p>
           <div className="flex items-center justify-center p-x-5 p-y-10">
-            <Link href={`/blog/${props.link}`} className='text-white rounded-md w-full bg-green-700 text-center'>Read This!</Link>
+            <Link href={`/blog/${props.link}`} className='text-white h-8 flex justify-center  items-center font-bold rounded-md w-full bg-green-700 text-center'>Read This!</Link>
           </div>
         </div>
       </div>
