@@ -25,7 +25,7 @@ export default function DetailPostView({ post }) {
     <>
      <HeadTag title={post.slug.replace(".md","")} description={post.content.slice(0,160)} canUrl={`https://codeinsta.tech${currentUrl}`}/>
      <Header2 content= {post.slug.replace(".md","")} date={post.date} />
-    <div className=" dark:text-white leading-loose lg:px-56 md:px-18 px-5">
+    <div className=" dark:text-white leading-loose lg:px-56 md:px-18 px-6">
     <div>
        <div className={`${styles.content}`}>
          <ReactMarkdown rehypePlugins={rehypeHighlight}  className={merry.className}>{post.content}</ReactMarkdown>
