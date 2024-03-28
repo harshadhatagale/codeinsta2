@@ -9,6 +9,7 @@ import "highlight.js/styles/atom-one-dark.css"
 import styles from "../../styles/post_detail_view.module.css"
 import HeadTag from '@/components/HeadTag';
 import { Roboto } from 'next/font/google';
+import Head from 'next/head';
 const roboto= Roboto({
   subsets:["latin"],
   weight:["100","300","400","500","700","900"]
@@ -23,6 +24,15 @@ export default function DetailPostView({ post }) {
   const currentUrl= router.asPath;
   return (
     <>
+    <Head>
+      <title>{post.title}</title>
+      <meta name='description' content={post.content} />
+      <meta property='og:title' content={post.title} />
+      <meta property='og:description' content={post.content} />
+      <meta property='og:image' content={post.thumbnail} />
+      <meta property='og:url' content='{`https://codeinsta.tech/blog/${post.slug}`}'/>
+      <meta property='og:type' content='article'/>
+    </Head>
      <HeadTag title={post.slug.replace(".md","")} description={post.content.slice(0,160)} canUrl={`https://codeinsta.tech${currentUrl}`}/>
      <Header2 content= {post.slug.replace(".md","")} date={post.date} />
     <div className=" dark:text-white leading-loose lg:px-56 md:px-18 px-6">

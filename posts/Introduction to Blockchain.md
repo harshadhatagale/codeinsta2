@@ -4,7 +4,7 @@ date: 27 Mar 2024
 thumbnail: /Post_Images/intro-to-blockchain.jpg
 ---
 
-![Introduction to blockchain](/Post_Images/intro-to-blockchain.jpg)
+![Introduction to blockchain](/Post_Images/post_1/intro-to-blockchain.jpg)
 
 ## Table of Contents:
 1. Introduction to Blockchain
@@ -18,7 +18,7 @@ thumbnail: /Post_Images/intro-to-blockchain.jpg
 9. challenges & limitations
 10. Future trends & opportunities
 11. Conclusion
-
+---
 ## Introduction to Blockchain
 - **Defination of Blockchain**:\
   Blockchain is a decentralized , distributed ledger technology that records transection across multiple   computers in a way  that is secure, transparent & immutable It consists of series of blocks, each containing a cryptographic hash of previous block , creating a chain blocks. \
