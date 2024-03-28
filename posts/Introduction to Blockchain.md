@@ -49,7 +49,7 @@ thumbnail: /Post_Images/intro-to-blockchain.jpg
    - **Audit Trails**: Blockchain documents the provenance of assets, aiding industries concerned about environmental or human rights issues.
 
 However, it's essential to recognize that blockchain's advantages can also be misused. Caution is necessary to avoid security breaches and unintended consequences.
-
+---
 ## What is Blockchain?
 Blockchain, as a decentralized ledger, operates on the principle of distributing copies of the ledger across multiple nodes (computers) in a network, rather than relying on a central authority or intermediary to manage and verify transactions.\
 Here's how blockchain functions as a decentralized ledger:
