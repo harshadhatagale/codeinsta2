@@ -13,7 +13,6 @@ Bitcoin was invented in 2008 by Satoshi Nakamoto with the publication paper titl
 The bitcoin network started in  2009, based on a reference implementation published by Nakamoto & since revised by other programmers .\
 The largest transaction processed so far by the network was $150 million US dollars , transmitted easily without any fees.
 ![Founder of Bitcoin : Satoshi Nakamoto](/Post_Images/post_2/image_1.jpg)
----
 ## Uses Of Bitcoins:
  five common uses of Bitcoin:
 1. **Investment**: Many people buy Bitcoin as a long-term investment, hoping that its value will increase over time, similar to investing in stocks or precious metals.
@@ -25,7 +24,6 @@ The largest transaction processed so far by the network was $150 million US doll
 4. **Hedging against Fiat Currency**: In countries experiencing hyperinflation or economic instability, some individuals use Bitcoin as a hedge against their national fiat currencies, seeking to preserve their wealth.
 
 5. **Store of Value**: Bitcoin is often referred to as "digital gold" because, like gold, it can serve as a store of value outside of government control. Some people hold Bitcoin as a hedge against economic uncertainty or as a way to diversify their investment portfolios.
----
 ## Comparison between Bitcoin & traditional currencies 
 | Aspect                      | Traditional Currencies                               | Bitcoin                                               |
 |-----------------------------|------------------------------------------------------|-------------------------------------------------------|
@@ -39,7 +37,6 @@ The largest transaction processed so far by the network was $150 million US doll
 | Anonymity                   | Transactions are not completely anonymous and can be traced by authorities. | Bitcoin transactions can be pseudonymous but are recorded on a public ledger. |
 | Inflation Resistance        | Susceptible to inflation and controlled by central banks. | Designed to be resistant to inflation with a capped supply of 21 million coins. |
 | Volatility                  | Generally stable compared to Bitcoin, but can still experience fluctuations. | Known for its price volatility due to market demand and speculation. |
----
 ## Benifits of Bitcoin
 1. **Store of Value**: Bitcoin is often referred to as ‘digital gold’ because it is accepted as a store of value by many investors, particularly during inflationary times.
 2. **High Returns**: Historically, Bitcoin has provided outsized returns, outperforming other asset classes over the last decade.
