@@ -5,7 +5,7 @@ thumbnail: /Post_Images/post_2/thumb_1.jpg
 date: 29 Mar 2024
 ---
 ![Introduction to Bitcoin](/Post_Images/post_2/thumb2.jpg)
-## What is Bitcoin?
+## What is Bitcoin? /
 Bitcoin is a unit of currency that is used for store & transmit value among participants in the bitcoin network.\
 Users can transfer the bitcoin over the network to do just anything that can be done with conventional currencies , such as buy & sell goods , send money to people or organisations,or extend credit.Unlike traditional currencies bitcoins are entirely invisible.
 ---
