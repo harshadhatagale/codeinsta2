@@ -48,4 +48,4 @@ Self-Custody: Users can have complete control over their Bitcoin without relying
 3. **Decentralization**: Bitcoin operates on a decentralized network, which reduces the risk of a single point of failure and makes it difficult for any organization or government to control or attack the network.
 4. **Security**: Bitcoin’s public key cryptography ensures the authenticity of transactions, and its decentralized nature protects against manipulation.
 5. **24/7 Availability**: Unlike traditional financial markets, the Bitcoin network operates 24/7, allowing for continuous trading and transactions.
-![Benefits of Bitcoin](/Post_Images/post_2/thumb_1.jpg)
+![Benefits of Bitcoin](/Post_Images/post_2/image_2.jpg)
