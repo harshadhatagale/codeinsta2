@@ -1,5 +1,6 @@
 import { getPostSlugs, getPostByslug } from "../../utils/fetchPosts";
 import HeadTag from "@/components/HeadTag";
+import { FacebookShareButton, FacebookIcon } from "react-share";
 import LatestPosts from "@/components/Blog/LatestPost";
 export default function Home({ latestPosts }) {
   return (

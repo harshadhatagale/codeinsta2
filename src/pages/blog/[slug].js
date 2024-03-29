@@ -11,6 +11,7 @@ import HeadTag from '@/components/HeadTag';
 import { Roboto } from 'next/font/google';
 import Head from 'next/head';
 import remarkGfm from 'remark-gfm';
+import { WhatsappShareButton,RedditIcon, RedditShareButton, InstapaperShareButton, InstapaperIcon, FacebookIcon, WhatsappIcon, TwitterIcon, TwitterShareButton,LinkedinIcon, FacebookShareButton, LinkedinShareButton } from 'react-share';
 const roboto= Roboto({
   subsets:["latin"],
   weight:["100","300","400","500","700","900"]
@@ -20,7 +21,7 @@ const merry= Merriweather({
   weight:["300","400","700","900"]
 })
 export default function DetailPostView({ post }) {
-
+  const link= encodeURIComponent(post.slug)
   const router = useRouter();
   const currentUrl= router.asPath;
   return (
@@ -37,6 +38,23 @@ export default function DetailPostView({ post }) {
      <HeadTag title={post.slug.replace(".md","")} description={post.content.slice(0,160)} canUrl={`https://codeinsta.tech${currentUrl}`}/>
      <Header2 content= {post.slug.replace(".md","")} date={post.date} />
     <div className=" dark:text-white leading-loose lg:px-56 md:px-18 px-6">
+      <div className='flex space-x-5 justify-end items-end'>
+      <FacebookShareButton url={`https://www.codeinsta.tech/blog`}>
+        <FacebookIcon size={32} round={true}/>
+      </FacebookShareButton>
+      <WhatsappShareButton url={`https://www.codeinsta.tech/blog/${link}`}>
+        <WhatsappIcon size={32} round={true}/>
+      </WhatsappShareButton>
+      <LinkedinShareButton url={`https://www.codeinsta.tech/blog/${link}`}>
+        <LinkedinIcon size={32} round={true}/>
+      </LinkedinShareButton>
+      <TwitterShareButton url={`https://www.codeinsta.tech/blog/${link}`}>
+        <TwitterIcon size={32} round={true}/>
+      </TwitterShareButton>
+      <RedditShareButton url={`https://www.codeinsta.tech/blog/${link}`}>
+        <RedditIcon size={32} round={true}/>
+      </RedditShareButton>
+      </div>
     <div>
        <div className={`${styles.content}`}>
          <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={rehypeHighlight}  className={`${merry.className} text-wrap`}>{post.content}</ReactMarkdown>
