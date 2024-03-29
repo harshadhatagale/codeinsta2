@@ -1,7 +1,6 @@
 ---
 title: What are the resources to learn Django?
-description: If you are a web developer & want to develop learn a programming language for backend programming.Then you must learn Django.Django is very popular Web framework. More than 82,000 websites are made with django. 
-So if you want to master django & develop popular website like Instagram, Pinterest,  Spotify & the Washington Post etc. which are made with django. Then read entire blog post.
+description: If you are a web developer & want to develop learn a programming language for backend programming.Then you must learn Django.Django is very popular Web framework. More than 82,000 websites are made with django.So if you want to master django & develop popular website like Instagram, Pinterest,  Spotify & the Washington Post etc. which are made with django. Then read entire blog post.
 date: 29 Mar 2024
 thumbnail: 
 ---
