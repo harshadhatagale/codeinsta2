@@ -10,6 +10,7 @@ import styles from "../../styles/post_detail_view.module.css"
 import HeadTag from '@/components/HeadTag';
 import { Roboto } from 'next/font/google';
 import Head from 'next/head';
+import remarkGfm from 'remark-gfm';
 const roboto= Roboto({
   subsets:["latin"],
   weight:["100","300","400","500","700","900"]
@@ -38,7 +39,7 @@ export default function DetailPostView({ post }) {
     <div className=" dark:text-white leading-loose lg:px-56 md:px-18 px-6">
     <div>
        <div className={`${styles.content}`}>
-         <ReactMarkdown rehypePlugins={rehypeHighlight}  className={`${merry.className} text-wrap`}>{post.content}</ReactMarkdown>
+         <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={rehypeHighlight}  className={`${merry.className} text-wrap`}>{post.content}</ReactMarkdown>
        </div>
       </div>
     </div>

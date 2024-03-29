@@ -1,10 +1,10 @@
 ---
 title: Introduction to Bitcoin
 description: Bitcoin is a digital currency that operates independently of a central authority, using decentralized technology called blockchain. It allows peer-to-peer transactions without the need for intermediaries like banks.
-thumbnail: 
+thumbnail: /Post_Images/post_2/thumb_1.jpg
 date: 29 Mar 2024
 ---
-￼
+![Introduction to Bitcoin](/Post_Images/post_2/thumb2.jpg)
 ## What is Bitcoin?
 Bitcoin is a unit of currency that is used for store & transmit value among participants in the bitcoin network.\
 Users can transfer the bitcoin over the network to do just anything that can be done with conventional currencies , such as buy & sell goods , send money to people or organisations,or extend credit.Unlike traditional currencies bitcoins are entirely invisible.
@@ -13,7 +13,7 @@ Users can transfer the bitcoin over the network to do just anything that can be 
 Bitcoin was invented in 2008 by Satoshi Nakamoto with the publication paper titled "Bitcoin: A peer-to-peer Electronic Cash System".\
 The bitcoin network started in  2009, based on a reference implementation published by Nakamoto & since revised by other programmers .\
 The largest transaction processed so far by the network was $150 million US dollars , transmitted easily without any fees.
-￼
+![Founder of Bitcoin : Satoshi Nakamoto](/Post_Images/post_2/image_1.jpg)
 ## Uses Of Bitcoins:
  five common uses of Bitcoin:
 1. **Investment**: Many people buy Bitcoin as a long-term investment, hoping that its value will increase over time, similar to investing in stocks or precious metals.
@@ -38,3 +38,5 @@ The largest transaction processed so far by the network was $150 million US doll
 | Anonymity                   | Transactions are not completely anonymous and can be traced by authorities. | Bitcoin transactions can be pseudonymous but are recorded on a public ledger. |
 | Inflation Resistance        | Susceptible to inflation and controlled by central banks. | Designed to be resistant to inflation with a capped supply of 21 million coins. |
 | Volatility                  | Generally stable compared to Bitcoin, but can still experience fluctuations. | Known for its price volatility due to market demand and speculation. |
+
+## Advantages & Disadvantages of Bitcoin

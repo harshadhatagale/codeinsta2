@@ -3,6 +3,23 @@
     font-family: sans-serif;
     font-weight: bold;
 }
+.content table{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 5px 15px #0000001a;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+.content table th, .content table td{
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #dddd;
+    text-align: left;
+}
+.content table th{
+    background: #da5d5d;
+    font-weight: bold;
+}
 .content ul{
     list-style-type: disc;
     padding-left: 1em;
