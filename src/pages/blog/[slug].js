@@ -38,7 +38,7 @@ export default function DetailPostView({ post }) {
     <div className=" dark:text-white leading-loose lg:px-56 md:px-18 px-6">
     <div>
        <div className={`${styles.content}`}>
-         <ReactMarkdown rehypePlugins={rehypeHighlight}  className={merry.className}>{post.content}</ReactMarkdown>
+         <ReactMarkdown rehypePlugins={rehypeHighlight}  className={`${merry.className} text-wrap`}>{post.content}</ReactMarkdown>
        </div>
       </div>
     </div>
