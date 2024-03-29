@@ -39,4 +39,10 @@ The largest transaction processed so far by the network was $150 million US doll
 | Inflation Resistance        | Susceptible to inflation and controlled by central banks. | Designed to be resistant to inflation with a capped supply of 21 million coins. |
 | Volatility                  | Generally stable compared to Bitcoin, but can still experience fluctuations. | Known for its price volatility due to market demand and speculation. |
 
-## Advantages & Disadvantages of Bitcoin
+## Benifits of Bitcoin
+1. **Store of Value**: Bitcoin is often referred to as ‘digital gold’ because it is accepted as a store of value by many investors, particularly during inflationary times.
+2. **High Returns**: Historically, Bitcoin has provided outsized returns, outperforming other asset classes over the last decade.
+Self-Custody: Users can have complete control over their Bitcoin without relying on banks or other intermediaries.
+3. **Decentralization**: Bitcoin operates on a decentralized network, which reduces the risk of a single point of failure and makes it difficult for any organization or government to control or attack the network.
+4. **Security**: Bitcoin’s public key cryptography ensures the authenticity of transactions, and its decentralized nature protects against manipulation.
+5. **24/7 Availability**: Unlike traditional financial markets, the Bitcoin network operates 24/7, allowing for continuous trading and transactions.
