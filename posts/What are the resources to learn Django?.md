@@ -5,6 +5,7 @@ So if you want to master django & develop popular website like Instagram, Pinter
 date: 29 Mar 2024
 thumbnail: 
 ---
+
 If you are a web developer & want to develop learn a programming language for backend programming.Then you must learn Django.
 Django is very popular Web framework. More than 82,000 websites are made with django. 
 So if you want to master django & develop popular website like Instagram, Pinterest,  Spotify & the Washington Post etc. which are made with django. Then read entire blog post.
