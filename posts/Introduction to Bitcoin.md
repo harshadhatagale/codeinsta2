@@ -25,3 +25,16 @@ The largest transaction processed so far by the network was $150 million US doll
 4. **Hedging against Fiat Currency**: In countries experiencing hyperinflation or economic instability, some individuals use Bitcoin as a hedge against their national fiat currencies, seeking to preserve their wealth.
 
 5. **Store of Value**: Bitcoin is often referred to as "digital gold" because, like gold, it can serve as a store of value outside of government control. Some people hold Bitcoin as a hedge against economic uncertainty or as a way to diversify their investment portfolios.
+## Comparison between Bitcoin & traditional currencies 
+| Aspect                      | Traditional Currencies                               | Bitcoin                                               |
+|-----------------------------|------------------------------------------------------|-------------------------------------------------------|
+| Issuance                    | Central banks and governments control issuance.      | Decentralized issuance with a capped supply.          |
+| Control                     | Centralized control by governments and financial institutions. | Decentralized control by a global network of users.   |
+| Transaction Fees            | Transaction fees may vary and are often applied by banks or payment processors. | Bitcoin transaction fees vary based on network demand. |
+| Transparency                | Transactions are recorded by banks and financial institutions, but transparency can vary. | Public ledger provides transparency for all transactions. |
+| Security                    | Relies on trust in banks and financial institutions. | Relies on cryptographic algorithms and decentralized consensus. |
+| Transfer Speed              | Transfer speed depends on banking systems and can be slower for international transfers. | Bitcoin transactions can be slower during periods of high demand. |
+| Accessibility               | Accessible through banks, ATMs, and digital payment platforms. | Accessible globally via the internet and digital wallets. |
+| Anonymity                   | Transactions are not completely anonymous and can be traced by authorities. | Bitcoin transactions can be pseudonymous but are recorded on a public ledger. |
+| Inflation Resistance        | Susceptible to inflation and controlled by central banks. | Designed to be resistant to inflation with a capped supply of 21 million coins. |
+| Volatility                  | Generally stable compared to Bitcoin, but can still experience fluctuations. | Known for its price volatility due to market demand and speculation. |
