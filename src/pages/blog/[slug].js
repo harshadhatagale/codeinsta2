@@ -28,6 +28,12 @@ export default function DetailPostView({ post }) {
     <>
     <Head>
       <title>{post.title}</title>
+      <meta name='twitter:card' content='summary_large_image'/>
+      <meta name='twitter:site' content={"@game_harsh78073"}/>
+      <meta name='twitter:title' content={post.title}/>
+      <meta name='twitter:description' content={post.description}/>
+      <meta name='twitter:image' content={post.thumbnail}/>
+      {/* Open Graph for share preview */}
       <meta name='description' content={post.content} />
       <meta property='og:title' content={post.title} />
       <meta property='og:description' content={post.description} />
@@ -40,7 +46,7 @@ export default function DetailPostView({ post }) {
     <div className=" dark:text-white leading-loose lg:px-56 md:px-18 px-6">
       <div className='flex space-x-5 justify-end items-end'>
       <FacebookShareButton url={`https://www.codeinsta.tech/blog`}>
-        <FacebookIcon size={32} round={true}/>
+        <FacebookIcon size={32} round={true} />
       </FacebookShareButton>
       <WhatsappShareButton url={`https://www.codeinsta.tech/blog/${link}`}>
         <WhatsappIcon size={32} round={true}/>
