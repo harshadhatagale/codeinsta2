@@ -1,11 +1,15 @@
-const remark= require("remark")
-const html= require("remark-html")
-const slug= require("remark-slug")
-const stringify= require("remark-stringify")
-
-const addHeadingIds=(markdownContent)=>{
-    const processor= remark().use(html).use(slug).use(stringify)
-    const result= processor.processSync(markdownContent)
-    return result.contents;
+import React from 'react'
+import remark2React from 'remark-react'
+import toc from 'remark-toc'
+import markdown from "remark-parse"
+import { unified } from 'unified'
+export default function Markdown({content}) {
+    const result= unified()
+    .use(markdown)
+    .use(()=>(tree)=> toc.run(tree,{tight: true, maxDepth: 2}))
+    .use(remark2React)
+    .process(content)
+  return (
+    <div>{result.contents}</div>
+  )
 }
-module.exports= addHeadingIds

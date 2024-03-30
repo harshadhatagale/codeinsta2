@@ -4,6 +4,7 @@
     font-weight: bold;
 }
 .content table{
+    font-family: poppins;
     border-radius: 8px;
     width: 100%;
     overflow: hidden;

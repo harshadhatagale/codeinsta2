@@ -10,6 +10,7 @@ export default function Header2(props) {
         <div className='w-full flex justify-center items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  border-gray-200 py-6 md:py-15 md:px-2 mb-5 px-2'>
                <h1 className={` ${poppins.className}  capitalize dark:text-white  text-white font-bold text-2xl px-2 md:text-xl lg:text-2xl`}>{props.content}</h1>
         </div>
+       
         </>
     )
 }

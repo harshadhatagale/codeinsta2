@@ -5,8 +5,6 @@ thumbnail: /Post_Images/post_1/intro-to-blockchain.jpg
 description: Blockchain is a decentralized , distributed ledger technology that records transection across multiple   computers in a way  that is secure, transparent & immutable It consists of series of blocks, each containing a cryptographic hash of previous block , creating a chain blocks. 
 ---
 
-![Introduction to blockchain](/Post_Images/post_1/intro-to-blockchain.jpg)
-
 ## Table of Contents:
 1. Introduction to Blockchain
 2. What is blockchain?
