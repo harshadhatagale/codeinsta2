@@ -86,7 +86,7 @@ export default function DetailPostView({ post }) {
           </RedditShareButton>
         </div>
         <div className='p-5'>
-          <img className='rounded-lg' src={post.hor_img} />
+          <img className='rounded-lg' src={post.hor_img} alt={post.title}/>
         </div>
         <div>
           <TableOfContents className={roboto.className} headings={headings} />
