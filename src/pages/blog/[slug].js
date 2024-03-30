@@ -85,7 +85,7 @@ export default function DetailPostView({ post }) {
             <RedditIcon size={32} round={true} />
           </RedditShareButton>
         </div>
-        <div className='p-10'>
+        <div className='p-5'>
           <img className='rounded-lg' src={post.hor_img} />
         </div>
         <div>
