@@ -1,5 +1,10 @@
-Title: How to Create SVG Animations with CSS Only
-
+---
+title: How to create SVG Animations with CSS only
+description: In the realm of web development, adding animations can bring life and interactivity to a webpage, enhancing user experience and engagement. Scalable Vector Graphics (SVG) offer a versatile and lightweight option for creating animations that scale seamlessly across different screen sizes and resolutions. With CSS (Cascading Style Sheets), you can manipulate SVG elements to create captivating animations without relying on JavaScript or external libraries. Let's delve into the fascinating world of SVG animations powered solely by CSS.
+thumbnail: /Post_Images/post_2/thumb_1.jpg
+hor_thumb: /Post_Images/post_2/thumb2.jpg
+date: 3 Apr 2024
+---
 In the realm of web development, adding animations can bring life and interactivity to a webpage, enhancing user experience and engagement. Scalable Vector Graphics (SVG) offer a versatile and lightweight option for creating animations that scale seamlessly across different screen sizes and resolutions. With CSS (Cascading Style Sheets), you can manipulate SVG elements to create captivating animations without relying on JavaScript or external libraries. Let's delve into the fascinating world of SVG animations powered solely by CSS.
 
 ### Understanding SVG
