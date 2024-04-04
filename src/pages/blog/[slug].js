@@ -65,7 +65,7 @@ export default function DetailPostView({ post }) {
         <meta property='og:url' content='{`https://codeinsta.tech/blog/${post.slug}`}' />
         <meta property='og:type' content='article' />
       </Head>
-      <HeadTag title={post.slug.replace(".md", "")} description={post.content.slice(0, 160)} canUrl={`https://codeinsta.tech${currentUrl}`} />
+      <HeadTag title={post.title} description={post.content.slice(0, 160)} canUrl={`https://codeinsta.tech${currentUrl}`} />
       <Header2 content={post.title} />
       <div className=" dark:text-white leading-loose lg:px-56 md:px-18 px-6">
         <div className='flex space-x-5 justify-end items-end'>
