@@ -98,7 +98,7 @@ In this example:
 - "This is a paragraph element." is the content.
 - `<p>` is the element name (in this case, it represents a paragraph).
   10. what is difference between html & css?\
-*Ans*: Difference between html & css is written in following table:
+**Ans** : Difference between html & css is written in following table:
 
 | Aspect               | HTML (HyperText Markup Language)                            | CSS (Cascading Style Sheets)                            |
 |----------------------|--------------------------------------------------------------|----------------------------------------------------------|
