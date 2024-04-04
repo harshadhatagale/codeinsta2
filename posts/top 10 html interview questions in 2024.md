@@ -13,29 +13,29 @@ Before going forward we will see ,what is html? Html is a hypertext markup langu
 It defines structure & layout of web pages by using variety of tags.
 
 ## Top interview questions:
-1. What is html:
-Ans: HTML stands for HyperText Markup Language. It is the standard text formatting language used for creating and displaying web pages on the Internet. HTML documents consist of elements and tags that format content for proper display.
+1. What is html? \
+*Ans*: HTML stands for HyperText Markup Language. It is the standard text formatting language used for creating and displaying web pages on the Internet. HTML documents consist of elements and tags that format content for proper display.
 
-2. What are html tags?
-Ans: HTML tags are used to place elements in the appropriate format. Tags are enclosed in angle brackets (< and >). Some tags require closing tags (e.g., <p>), while others are self-closing (e.g., <img>).
+2. What are html tags? \
+*Ans*: HTML tags are used to place elements in the appropriate format. Tags are enclosed in angle brackets (< and >). Some tags require closing tags (e.g., <p>), while others are self-closing (e.g., <img>).
 
-3. What are html attributes?
-Ans: Attributes are properties added to HTML tags. They modify how a tag behaves or is displayed. For example, the <img> tag has an src attribute to specify the image source.
-4. What is marquee tag in html?
-Ans: A marquee is used for scrolling text or images on a web page. It automatically scrolls content up, down, left, or right. To create a marquee, use the <marquee> tags.
+3. What are html attributes?\
+*Ans*: Attributes are properties added to HTML tags. They modify how a tag behaves or is displayed. For example, the <img> tag has an src attribute to specify the image source.
+4. What is marquee tag in html?\
+*Ans*: A marquee is used for scrolling text or images on a web page. It automatically scrolls content up, down, left, or right. To create a marquee, use the <marquee> tags.
 
-5) How do you separate sections of text in HTML?
-Ans :
+5) How do you separate sections of text in HTML?\
+*Ans* :
 - <br> tag: Separates lines of text by breaking the current line and shifting the flow to a new line.
 - <p> tag: Defines a paragraph of text.
 - <blockquote> tag: Used for large quoted sections.
 
-6. Define the list types in HTML.
-Ans:
+6. Define the list types in HTML.\
+*Ans*:
 - Ordered list: Uses the <ol> tag and displays elements in a numbered format.
 - Unordered list: Uses the <ul> tag and displays elements in a bulleted format.
-7. How do you align list elements in an HTML file?
-Ans: 
+7. How do you align list elements in an HTML file?\
+*Ans*: 
 To align list elements in an HTML file, you can use CSS (Cascading Style Sheets) to apply alignment properties to the list items. Here are a few common methods:
 
 1. **Text Alignment:** You can align the text within list items using the `text-align` property. For example, to align the text to the left, right, or center within a list, you can use:
@@ -62,8 +62,8 @@ ul {
     justify-content: center; /* or other values like flex-start, flex-end */
 }
 ```
-8. Differentiate between an Ordered list and an Unordered list?
-Ans: Difference between ordered & Unordered list is written in following table:
+8. Differentiate between an Ordered list and an Unordered list? \
+*Ans*: Difference between ordered & Unordered list is written in following table:
 
 | Aspect                | Ordered List                                      | Unordered List                                    |
 |-----------------------|---------------------------------------------------|---------------------------------------------------|
@@ -75,8 +75,8 @@ Ans: Difference between ordered & Unordered list is written in following table:
 | Accessibility         | Useful for step-by-step instructions               | Suitable for listing items without a specific order |
 | Semantic Meaning      | Implies a logical sequence                         | Implies a collection of related items              |
 
-9. what is an element in html?
-Ans: In HTML, an element is a fundamental building block that defines the structure and content of a web page. An HTML element consists of several parts:
+9. what is an element in html? \
+*Ans*: In HTML, an element is a fundamental building block that defines the structure and content of a web page. An HTML element consists of several parts:
 
 1. **Start Tag**: The opening tag that marks the beginning of the element. It is enclosed in angle brackets (`< >`) and usually contains the name of the element.
    
@@ -97,8 +97,8 @@ In this example:
 - `</p>` is the end tag.
 - "This is a paragraph element." is the content.
 - `<p>` is the element name (in this case, it represents a paragraph).
-  10. what is difference between html & css?
-Ans: Difference between html & css is written in following table:
+  10. what is difference between html & css?\
+*Ans*: Difference between html & css is written in following table:
 
 | Aspect               | HTML (HyperText Markup Language)                            | CSS (Cascading Style Sheets)                            |
 |----------------------|--------------------------------------------------------------|----------------------------------------------------------|
