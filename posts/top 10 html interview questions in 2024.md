@@ -1,7 +1,7 @@
 ---
 title: Top 10 HTML Interview questions in 2024
 description: If you are preparing for interview & you finding the top html interview questions, then this post is for you.In this post , first we will what is html & why it is used . Then we will see top interview questions related to html & thier answers with proper explanation. If you want to crack interview then read the complete blog post. 
-thumbnail: /post_images/post_5/thumb.jpg
+thumbnail: /Post_Images/post_5/thumb.jpg
 hor_thumb: /Post_Images/post_5/hor_thumb.jpg
 date: 4 Apr 2024
 ---
