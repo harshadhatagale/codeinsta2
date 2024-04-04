@@ -9,7 +9,7 @@ date: 4 Apr 2024
 If you are preparing for interview & you are finding the top html interview questions, then this post is for you.
 In this blog post , first we will see what is html & why it is used . Then we will see top interview questions related to html & thier answers with proper explanation. If you want to crack interview then read the complete blog post. 
 ## What is html?
-Before going forward we will see , \ what is html?\ Html is a *hypertext markup language*. It is a standard markup language used to create web pages. 
+Before going forward we will see , what is html? Html is a *hypertext markup language*. It is a standard markup language used to create web pages. 
 It defines structure & layout of web pages by using variety of tags.
 
 ## Top interview questions:
