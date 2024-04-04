@@ -6,7 +6,6 @@ thumbnail: /Post_Images/post_2/thumb_1.jpg
 hor_thumb: /Post_Images/post_2/thumb2.jpg
 date: 4 Apr 2024
 ---
-
 ## Introduction 
 If you are preparing for interview & you finding the top html interview questions, then this post is for you.
 In this post , first we will what is html & why it is used . Then we will see top interview questions related to html & thier answers with proper explanation. If you want to crack interview then read the complete blog post. 
