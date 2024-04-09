@@ -33,7 +33,6 @@ export default function DetailPostView({ post }) {
   useEffect(() => {
     const getHeadings = () => {
       const headingArray = [];
-      const body = document.getElementById("content");
       const headingTags = ContentRef.current.querySelectorAll("h2");
       headingTags.forEach((heading, index) => {
         const id = index

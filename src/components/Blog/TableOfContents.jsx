@@ -10,7 +10,7 @@ export default function TableOfContents({headings}) {
         <h2 className='text-2xl font-extrabold my-2'>Table of Contents:</h2>
         <ul>
             {headings.map((item)=>(
-            <li key={item.id} className='font-bold hover:text-cyan-500 dark:hover:text-cyan-200'><a href={`#${item.id}`}>{item.title}</a></li>
+            <li key={item.id} className='capitalize font-bold hover:text-cyan-500 dark:hover:text-cyan-200'><a href={`#${item.id}`}>{item.title}</a></li>
             ))}
         </ul>
     </div>
