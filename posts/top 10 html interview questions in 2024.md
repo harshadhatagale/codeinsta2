@@ -1,15 +1,15 @@
 ---
 title: Top 10 HTML Interview questions in 2024
-description: If you are preparing for interview & you finding the top html interview questions, then this post is for you.In this post , first we will what is html & why it is used . Then we will see top interview questions related to html & thier answers with proper explanation. If you want to crack interview then read the complete blog post. 
+description: If you are preparing for interview & you finding the top *html* interview questions, then this post is for you.In this post , first we will what is html & why it is used . Then we will see top interview questions related to html & thier answers with proper explanation. If you want to crack interview then read the complete blog post. 
 thumbnail: /Post_Images/post_5/thumb.jpg
 hor_thumb: /Post_Images/post_5/hor_thumb.jpg
 date: 4 Apr 2024
 ---
 ## Introduction 
-If you are preparing for interview & you finding the top html interview questions, then this post is for you.
-In this post , first we will what is html & why it is used . Then we will see top interview questions related to html & thier answers with proper explanation. If you want to crack interview then read the complete blog post. 
+If you are preparing for interview & you are finding the top html interview questions, then this post is for you.
+In this blog post , first we will see what is html & why it is used . Then we will see top interview questions related to html & thier answers with proper explanation. If you want to crack interview then read the complete blog post. 
 ## What is html?
-Before going forward we will see ,what is html? Html is a hypertext markup language. It is a standard markup language used to create web pages. 
+Before going forward we will see , what is html? Html is a *hypertext markup language*. It is a standard markup language used to create web pages. 
 It defines structure & layout of web pages by using variety of tags.
 
 ## Top interview questions:
@@ -20,9 +20,9 @@ It defines structure & layout of web pages by using variety of tags.
 **Ans**: HTML tags are used to place elements in the appropriate format. Tags are enclosed in angle brackets (< and >). Some tags require closing tags (e.g., <p>), while others are self-closing (e.g., <img>).
 
 3. What are html attributes?\
-**Ans**: Attributes are properties added to HTML tags. They modify how a tag behaves or is displayed. For example, the <img> tag has an src attribute to specify the image source.
+**Ans**: *Attributes* are properties added to HTML tags. They modify how a tag behaves or is displayed. For example, the <img> tag has an src attribute to specify the image source.
 4. What is marquee tag in html?\
-**Ans**: A marquee is used for scrolling text or images on a web page. It automatically scrolls content up, down, left, or right. To create a marquee, use the <marquee> tags.
+**Ans**: A *marquee* is used for scrolling text or images on a web page. It automatically scrolls content up, down, left, or right. To create a marquee, use the <marquee> tags.
 
 5) How do you separate sections of text in HTML?\
 **Ans** :
@@ -98,7 +98,7 @@ In this example:
 - "This is a paragraph element." is the content.
 - `<p>` is the element name (in this case, it represents a paragraph).
   10. what is difference between html & css?\
-*Ans*: Difference between html & css is written in following table:
+**Ans** : Difference between html & css is written in following table:
 
 | Aspect               | HTML (HyperText Markup Language)                            | CSS (Cascading Style Sheets)                            |
 |----------------------|--------------------------------------------------------------|----------------------------------------------------------|
