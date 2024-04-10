@@ -7,6 +7,7 @@ import rehypeHighlight from 'rehype-highlight';
 import "highlight.js/styles/atom-one-dark.css"
 import styles from "../../styles/post_detail_view.module.css"
 import HeadTag from '@/components/HeadTag';
+import AdsterraBannerAd from "../../components/Add_banner"
 import { Roboto, Poppins, Merriweather } from 'next/font/google';
 import Head from 'next/head';
 import TableOfContents from '@/components/Blog/TableOfContents';
@@ -67,6 +68,7 @@ export default function DetailPostView({ post }) {
       <HeadTag title={post.title} description={post.content.slice(0, 160)} canUrl={`https://codeinsta.tech${currentUrl}`} />
       <Header2 content={post.title} />
       <div className=" dark:text-white leading-loose lg:px-56 md:px-18 px-6">
+        <AdsterraBannerAd />
         <div className='flex space-x-5 justify-end items-end'>
           <FacebookShareButton url={`https://www.codeinsta.tech/blog`}>
             <FacebookIcon size={32} round={true} />
@@ -85,7 +87,7 @@ export default function DetailPostView({ post }) {
           </RedditShareButton>
         </div>
         <div className='p-5 fllex justify-center items-center w-full'>
-          <img className='rounded-lg m-auto' src={post.hor_img} alt={post.title}/>
+          <img className='rounded-lg m-auto' src={post.hor_img} alt={post.title} />
         </div>
         <div>
           <TableOfContents className={roboto.className} headings={headings} />

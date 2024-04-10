@@ -7,8 +7,14 @@ hor_thumb: /Post_Images/post_6/hor_thumb.png
 ---
 ## Introduction
 In this blog post, we are going to create create top loading bar in next js website.It is very easy to create.\
-Top loading bar is necessary in every website. You have seen in many website like facebook, youtube & instagram etc. that, when you click on any post or a video, on the top of navbar of web page a small progress bar is displayed & when content is loaded it get hidden automatically. For example, 
+Top loading bar is necessary in every website. You have seen in many website like facebook, youtube & instagram etc. that, when you click on any post or a video, on the top of navbar of web page a small progress bar is displayed & when content is loaded it get hidden automatically. For example,
+![Example of nextjs toploader](/Post_Images/post_6/yt-ex.gif)
 ## Project setup
+So lets get started ! First create a new nextjs project by following command:
+```terminal
+npx create-next-app@latest
+```
+After that 
 ## Installing Depencies
 ```bash
 // for nodejs
