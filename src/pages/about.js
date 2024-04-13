@@ -13,7 +13,7 @@ export default function about() {
                 <section>
                     <h2>Our Mission 🚀</h2>
                     <p>
-                        At Code Insta, our mission is to empower and inspire individuals from all backgrounds to learn and excel in coding and technology. We believe that everyone should have access to quality resources and guidance to pursue their passion for coding, whether they're beginners or seasoned professionals.
+                        At Code Insta, our mission is to empower and inspire individuals from all backgrounds to learn and excel in coding and technology. We believe that everyone should have access to quality resources and guidance to pursue their passion for coding, whether they&apos;re beginners or seasoned professionals.
                     </p>
                 </section>
 
@@ -21,7 +21,7 @@ export default function about() {
                     <h2>What We Offer 📚</h2>
                     <h3>Educational Content</h3>
                     <p>
-                        We provide a wide range of educational content, including tutorials, articles, and guides covering various programming languages, frameworks, tools, and technologies. Whether you're interested in web development, mobile app development, data science, or machine learning, we've got you covered!
+                        We provide a wide range of educational content, including tutorials, articles, and guides covering various programming languages, frameworks, tools, and technologies. Whether you&apos;re interested in web development, mobile app development, data science, or machine learning, we&apos;ve got you covered!
                     </p>
 
                     <h3>Community Engagement</h3>
@@ -56,7 +56,7 @@ export default function about() {
                 <section>
                     <h2>Get in Touch 📫</h2>
                     <p>
-                        Have questions, suggestions, or feedback? We'd love to hear from you! You can reach out to us via email at <a href="mailto:youremail@example.com">youremail@example.com</a> or connect with us on social media <a href="https://twitter.com/codeinsta">Twitter</a>, <a href="https://facebook.com/codeinsta">Facebook</a>, <a href="https://instagram.com/codeinsta">Instagram</a>.
+                        Have questions, suggestions, or feedback? We&apos;d love to hear from you! You can reach out to us via email at <a href="mailto:youremail@example.com">youremail@example.com</a> or connect with us on social media <a href="https://twitter.com/codeinsta">Twitter</a>, <a href="https://facebook.com/codeinsta">Facebook</a>, <a href="https://instagram.com/codeinsta">Instagram</a>.
                     </p>
                 </section>
             </div>
