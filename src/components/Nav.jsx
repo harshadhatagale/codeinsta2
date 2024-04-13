@@ -41,7 +41,6 @@ export default function Nav() {
           <li className='hover:text-cyan-400'><Link href="/" onClick={CloseNav}>Home</Link></li>
           <li className='hover:text-cyan-400'><Link href="/blog" onClick={CloseNav}>Blog</Link></li>
           <li className='hover:text-cyan-400'><Link href="/about" onClick={CloseNav}>About Us!</Link></li>
-          <li className='hover:text-cyan-400'><Link href="/learn" onClick={CloseNav}>Contact Us!</Link></li>
           <li className='hover:text-cyan-400'><Link href="/privacy_policy" onClick={CloseNav}>Privacy Policy</Link></li>
         </ul>
       </div>
