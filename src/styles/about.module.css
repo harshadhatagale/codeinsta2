@@ -1,0 +1,44 @@
+.content h2{
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.content h1{
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.content h3{
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.content p{
+    font-size: 18px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.content ul li{
+    list-style: circle;
+}
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+
+  .slide-in {
+    transform: translateY(100px);
+    transition: transform 0.5s ease;
+  }
+
+  .zoom-in {
+    transform: scale(0.9);
+    transition: transform 0.5s ease;
+  }
+
+  .bounce {
+    animation: bounce 1s infinite alternate;
+  }

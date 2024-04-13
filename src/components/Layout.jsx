@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from './Nav'
+import Footer from './Footer';
 import { Analytics } from '@vercel/analytics/react';
 import NextTopLoader from 'nextjs-toploader';
 export default function Layout({ children }) {
@@ -11,6 +12,7 @@ export default function Layout({ children }) {
         {children}
         <Analytics />
       </main>
+    <Footer/>
     </>
   )
 }
