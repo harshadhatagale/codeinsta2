@@ -23,7 +23,7 @@ export default function Nav() {
     setIsNavOpen(false);
   }
   return (
-    <nav className={` fixed top-0 border-t bg-white dark:bg-black nav ${isNavOpen ? "active" : ""} border-b dark:border-gray-500 flex h-16  justify-around w-screen items-center px-3`}>
+    <nav className={`select-none fixed top-0 border-t bg-white dark:bg-black nav ${isNavOpen ? "active" : ""} border-b dark:border-gray-500 flex h-16  justify-around w-screen items-center px-3`}>
       <div className=" h-20 flex w-screen logo_ham sm:max-auto md:w-auto justify-around items-center">
         <div className="tracking-wider text-3xl font-extrabold">
           <Link href="/" className={`${pacifico.className} logo font-extrabold transition-all text-white serif`} onClick={CloseNav}>Code Insta</Link>
@@ -40,7 +40,9 @@ export default function Nav() {
         <ul className='flex items-center text-black font-bold justify-center gap-8 dark:text-white lg:text-lg'>
           <li className='hover:text-cyan-400'><Link href="/" onClick={CloseNav}>Home</Link></li>
           <li className='hover:text-cyan-400'><Link href="/blog" onClick={CloseNav}>Blog</Link></li>
-          <li className='hover:text-cyan-400'><Link href="/learn" onClick={CloseNav}>Learn</Link></li>
+          <li className='hover:text-cyan-400'><Link href="/about" onClick={CloseNav}>About Us!</Link></li>
+          <li className='hover:text-cyan-400'><Link href="/learn" onClick={CloseNav}>Contact Us!</Link></li>
+          <li className='hover:text-cyan-400'><Link href="/privacy_policy" onClick={CloseNav}>Privacy Policy</Link></li>
         </ul>
       </div>
     </nav>
