@@ -1,8 +1,8 @@
 ---
 title: How to create SVG Animations with CSS only
 description: Discover the possibilities of creating multiplayer games with GDevelop. Explore its features, external integrations, and considerations for optimizing performance. Unleash your creativity and embark on an exciting journey to craft immersive multiplayer experiences for players worldwide.
-thumbnail: /blog_thumb.jpg
-hor_thumb: /blog_thumb.jpg
+thumbnail: /post_7/thumb.jpeg
+hor_thumb: /post_hor_thumb.jpeg
 date: 16 Apr 2024
 ---
 
