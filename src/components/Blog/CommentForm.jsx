@@ -1,27 +1,25 @@
 import React from 'react'
-import { useEffect } from 'react';
+import Giscus from '@giscus/react';
+
 
 export default function CommentForm() {
-    useEffect(() => {
-      const script = document.createElement('script');
-      script.src = 'https://utteranc.es/client.js';
-      script.setAttribute('repo', 'harshadhatagale/codeinsta-comments');
-      script.setAttribute('issue-term', 'pathname');
-      script.setAttribute('theme', 'github-light');
-      script.setAttribute('crossorigin', 'anonymous');
-      script.async = true;
-      script.setAttribute("redirect-uri","https://www.codeinsta.tech/blog")
-      document.getElementById('comments').appendChild(script);
-  
-      return () => {
-        // Cleanup script on unmount if necessary
-        document.getElementById('comments').removeChild(script);
-      };
-    }, []);
-  
     return (
       <>
-      <div id="comments"></div>
+      <Giscus
+      id="comments"
+      repo="harshadhatagale/codeinsta2"
+      repoId="harshadhatagale/codeinsta2"
+      category="Announcements"
+      categoryId="DIC_kwDOLXw2jc4CevXh"
+      mapping="title"
+      term="Welcome to @giscus/react component!"
+      reactionsEnabled="1"
+      emitMetadata="0"
+      inputPosition="top"
+      theme="preferred_color_scheme"
+      lang="en"
+      loading="lazy"
+    />
       </>
     );
 }
