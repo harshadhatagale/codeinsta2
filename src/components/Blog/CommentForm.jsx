@@ -10,7 +10,7 @@ export default function CommentForm() {
       script.setAttribute('theme', 'github-light');
       script.setAttribute('crossorigin', 'anonymous');
       script.async = true;
-      redirect_uri="https://www.codeinsta.tech/blog"
+      script.setAttribute("redirect-uri","https://www.codeinsta.tech/blog")
       document.getElementById('comments').appendChild(script);
   
       return () => {
