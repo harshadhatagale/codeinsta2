@@ -85,9 +85,12 @@ First create a project name as your preferences. Install IronPDF by following co
 pip install ironpdf
 ```
 Create main.py file in root directory & import necessary files.
+
 ```python
 from ironpdf import *
 ```
+
+### Render HTML to PDF: 
 We will use RenderHtmlAsPdf method to convert html to PDF.
 The code below converts a simple HTML string to a PDF document:
 
@@ -105,3 +108,15 @@ pdf.SaveAs("html_to_pdf.pdf")
 
 ```
 
+### Convert URL to PDF
+Use the RenderUrlAsPdf method to convert a URL or local file path to a PDF document. Here's an example:
+
+```python
+from ironpdf import *
+# Instantiate Renderer
+renderer = ChromePdfRenderer()
+# Create a PDF from a URL or local file path
+pdf = renderer.RenderUrlAsPdf("https://ironpdf.com/")
+# Export to a file or Stream
+pdf.SaveAs("url_to_pdf.pdf")
+```
