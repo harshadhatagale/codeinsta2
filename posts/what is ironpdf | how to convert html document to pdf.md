@@ -27,7 +27,7 @@ IronPDF is a .NET library helping developers to create, edit, and manage PDFs ef
 - Capabilities to create, edit, fill PDF forms; extract text/images, print PDFs
 - Asynchronous operations for enhanced performance
 
-##Prerequisites
+## Prerequisites
 1. ''.NET 6.0 SDK'': To use IronPDF Python, install .NET SDK.
 2. ''Python'': Download & install the latest Python version.
 3. ''IronPDF Library'': Install via pip command:
