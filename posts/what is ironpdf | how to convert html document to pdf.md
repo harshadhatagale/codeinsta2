@@ -37,7 +37,9 @@ pip install ironpdf
 ## Getting Started With IronPDF
 Create a project, install IronPDF with pip, create main.py and use the code snippet below:
 
+```python
 from ironpdf import ChromePdfRenderer
 renderer = ChromePdfRenderer()
 pdf = renderer.RenderHtmlAsPdf("<h1>Hello World</h1>")
 pdf.SaveAs("html_to_pdf.pdf")"
+```
