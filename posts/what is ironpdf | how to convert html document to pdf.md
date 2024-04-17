@@ -76,22 +76,22 @@ Here's the detailed and structured feature breakdown for IronPDF, a comprehensiv
 1. .NET 6.0 SDK: To use IronPDF python we need to install .NET SDK in local system.
 2. Python: Download & install latest version of python from official website.
 3. IronPDF Library:  The IronPDF library can be added via pip. Use the command below to install IronPDF using pip:
-'''python
+```python
 pip install ironpdf
-'''
+```
 ## Getting started with IronPDF
 First create a project name as your preferences. Install IronPDF by following command:
-'''python
+```python
 pip install ironpdf
-'''
+```
 Create main.py file in root directory & import necessary files.
-'''python
+```python
 from ironpdf import *
-'''
+```
 We will use RenderHtmlAsPdf method to convert html to PDF.
 The code below converts a simple HTML string to a PDF document:
 
-'''python
+```python
 from ironpdf import *
 
 # Instantiate Renderer
@@ -103,5 +103,5 @@ pdf = renderer.RenderHtmlAsPdf("<h1>Hello World</h1>")
 # Export to a file or Stream
 pdf.SaveAs("html_to_pdf.pdf")
 
-'''
+```
 
