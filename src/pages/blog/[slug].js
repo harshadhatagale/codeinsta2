@@ -13,6 +13,7 @@ import Head from 'next/head';
 import TableOfContents from '@/components/Blog/TableOfContents';
 import remarkGfm from 'remark-gfm';
 import { WhatsappShareButton, RedditIcon, RedditShareButton, InstapaperShareButton, InstapaperIcon, FacebookIcon, WhatsappIcon, TwitterIcon, TwitterShareButton, LinkedinIcon, FacebookShareButton, LinkedinShareButton } from 'react-share';
+import CommentForm from '@/components/Blog/CommentForm';
 const roboto = Roboto({
   subsets: ["latin"],
   weight: ["100", "300", "400", "500", "700", "900"]
@@ -26,6 +27,7 @@ const merry = Merriweather({
   weight: ["300", "400", "700", "900"]
 })
 export default function DetailPostView({ post }) {
+ 
   const [headings, setHeadings] = useState([])
   const link = encodeURIComponent(post.slug)
   const router = useRouter();
@@ -94,6 +96,7 @@ export default function DetailPostView({ post }) {
           <div ref={ContentRef} id='content' className={`${styles.content}`}>
             <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={rehypeHighlight} className={`${poppins.className} text-wrap`}>{post.content}</ReactMarkdown>
           </div>
+          <CommentForm/>
         </div>
       </div>
     </>
