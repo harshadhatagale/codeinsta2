@@ -6,7 +6,7 @@ hor_thumb: /Post_Images/post_8/hor_thumb.jpg
 date: 17 Apr 2024
 ---
 
-I was searching for a  solution for converting a html document to PDF.  I found IronPDF. IronPDF is a python library for generating  & editing PDFs
+I was searching for a  solution for converting a html document to PDF.  I found IronPDF. IronPDF is a python library for genrating & converting PDFs from HTML document
 
 ## Introduction
 When we find a tutorial, blog post, or article online that interests us, we might want to download it as a PDF for offline reading. Not all websites offer this feature. Adding this feature can greatly enhance user experience. We’ll explore how to convert HTML documents to PDF using IronPDF.
