@@ -4,7 +4,7 @@ import styles from "../styles/about.module.css"
 export default function about() {
     return (
         <>
-
+        <HeadTag title="About Us!" description="At Code Insta, our mission is to empower and inspire individuals from all backgrounds to learn and excel in coding and technology. We believe that everyone should have access to quality resources and guidance to pursue their passion for coding, whether they're beginners or seasoned professionals." canUrl="https://www.codeinsta.tech/about"/>
             <div className={`${styles.content} pt-5 px-12 lg:px-12 flex-col flex justify-center items-center justify-items-center  pb-5`}>
                 <header>
                     <h1>About Code Insta</h1>
