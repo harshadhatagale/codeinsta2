@@ -1,5 +1,5 @@
 ---
-title: How to create Top loading bar in NextJs 
+title: How to create Top loading bar in NextJs ?
 date: 8 Apr 2024
 thumbnail: /Post_Images/post_6/thumb_image.png
 description: Blockchain is a decentralized , distributed ledger technology that records transection across multiple   computers in a way  that is secure, transparent & immutable It consists of series of blocks, each containing a cryptographic hash of previous block , creating a chain blocks. 

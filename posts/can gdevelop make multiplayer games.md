@@ -1,5 +1,5 @@
 ---
-title: How to create SVG Animations with CSS only
+title: Can GDevelop Make multiplayer games ?
 description: Discover the possibilities of creating multiplayer games with GDevelop. Explore its features, external integrations, and considerations for optimizing performance. Unleash your creativity and embark on an exciting journey to craft immersive multiplayer experiences for players worldwide.
 thumbnail: /Post_Images/post_7/thumb.jpg
 hor_thumb: /Post_Images/post_7/hor_thumb.jpg
