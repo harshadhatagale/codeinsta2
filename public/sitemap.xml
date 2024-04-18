@@ -1,40 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-
-<url>
-  <loc>https://www.codeinsta.tech/</loc>
-  <lastmod>2024-02-29T05:00:44+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>1.0</priority>
-</url>
-<url>
-  <loc>https://www.codeinsta.tech/blog</loc>
-  <lastmod>2024-02-29T05:00:44+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>1.0</priority>
-</url>
-<url>
-  <loc>https://www.codeinsta.tech/blog/CSS%20comments.md</loc>
-  <lastmod>2024-02-29T05:00:44+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>1.0</priority>
-</url>
-<url>
-  <loc>https://www.codeinsta.tech/blog/Center%20text%20in%20HTML.md</loc>
-  <lastmod>2024-02-29T05:00:44+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>1.0</priority>
-</url>
-<url>
-  <loc>https://www.codeinsta.tech/blog/How%20to%20link%20in%20HTML.md</loc>
-  <lastmod>2024-02-29T05:00:44+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>1.0</priority>
-</url>
+  <url>
+    <loc>https://www.codeinsta.tech/blog/Introduction%20to%20Bitcoin.md</loc>
+    <lastmod>2024-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.codeinsta.tech/blog/Introduction%20to%20Blockchain.md</loc>
+    <lastmod>2024-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.codeinsta.tech/blog/can%20gdevelop%20make%20multiplayer%20games.md</loc>
+    <lastmod>2024-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.codeinsta.tech/blog/how%20to%20create%20svg%20animations%20with%20css%20only.md</loc>
+    <lastmod>2024-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.codeinsta.tech/blog/how%20to%20create%20top%20loading%20bar%20in%20nextjs.md</loc>
+    <lastmod>2024-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.codeinsta.tech/blog/top%2010%20html%20interview%20questions%20in%202024.md</loc>
+    <lastmod>2024-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.codeinsta.tech/blog/top%2010%20reactjs%20interview%20questions%20in%202024.md</loc>
+    <lastmod>2024-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.codeinsta.tech/blog/what%20are%20the%20resources%20to%20learn%20django.md</loc>
+    <lastmod>2024-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.codeinsta.tech/blog/what%20is%20IronPDF.md</loc>
+    <lastmod>2024-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.codeinsta.tech/blog</loc>
+    <lastmod>2024-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.codeinsta.techprivacy_policy</loc>
+    <lastmod>2024-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.codeinsta.tech/about</loc>
+    <lastmod>2024-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

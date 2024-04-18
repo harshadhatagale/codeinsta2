@@ -43,6 +43,7 @@
     "remark-react": "^9.0.1",
     "remark-slug": "^7.0.1",
     "remark-toc": "^9.0.0",
+    "sitemap-generator": "^7.6.2",
     "unified": "^11.0.4"
   },
   "devDependencies": {
