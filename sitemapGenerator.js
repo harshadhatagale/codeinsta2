@@ -13,7 +13,7 @@ const posts = [
     "/blog/what%20are%20the%20resources%20to%20learn%20django.md",
     "/blog/what%20is%20IronPDF.md",
     "/blog",
-    "privacy_policy",
+    "/privacy_policy",
     "/about",
   // Add more post URLs as needed
 ];
