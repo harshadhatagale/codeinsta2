@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 
-export default function AdBanner() {
+export default function AddBanner() {
     const banner = useRef();
     const atOptions = {
         key: '029bf7f54e10dc2891cb1c0e77457eb0',

@@ -7,13 +7,14 @@ import rehypeHighlight from 'rehype-highlight';
 import "highlight.js/styles/atom-one-dark.css"
 import styles from "../../styles/post_detail_view.module.css"
 import HeadTag from '@/components/HeadTag';
-import AdsterraBannerAd from "../../components/Add_banner"
+import AddBanner from '@/components/ads/Add_banner';
 import { Roboto, Poppins, Merriweather } from 'next/font/google';
 import Head from 'next/head';
 import TableOfContents from '@/components/Blog/TableOfContents';
 import remarkGfm from 'remark-gfm';
 import { WhatsappShareButton, RedditIcon, RedditShareButton, InstapaperShareButton, InstapaperIcon, FacebookIcon, WhatsappIcon, TwitterIcon, TwitterShareButton, LinkedinIcon, FacebookShareButton, LinkedinShareButton } from 'react-share';
 import CommentForm from '@/components/Blog/CommentForm';
+import NativeBannerAdd from '@/components/ads/NativeBannerAdd';
 const roboto = Roboto({
   subsets: ["latin"],
   weight: ["100", "300", "400", "500", "700", "900"]
@@ -27,7 +28,7 @@ const merry = Merriweather({
   weight: ["300", "400", "700", "900"]
 })
 export default function DetailPostView({ post }) {
- 
+
   const [headings, setHeadings] = useState([])
   const link = encodeURIComponent(post.slug)
   const router = useRouter();
@@ -70,7 +71,7 @@ export default function DetailPostView({ post }) {
       <HeadTag title={post.title} description={post.content.slice(0, 160)} canUrl={`https://codeinsta.tech${currentUrl}`} />
       <Header2 content={post.title} />
       <div className=" dark:text-white leading-loose lg:px-56 md:px-18 px-6">
-        <AdsterraBannerAd />
+        <AddBanner />
         <div className='flex space-x-5 justify-end items-end'>
           <FacebookShareButton url={`https://www.codeinsta.tech/blog`}>
             <FacebookIcon size={32} round={true} />
@@ -96,7 +97,15 @@ export default function DetailPostView({ post }) {
           <div ref={ContentRef} id='content' className={`${styles.content}`}>
             <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={rehypeHighlight} className={`${poppins.className} text-wrap`}>{post.content}</ReactMarkdown>
           </div>
-          <CommentForm/>
+          <hr />
+          <div className="my-2 text-xl font-bold py-5" >
+            <p className='my-3'>Top Blog Posts:</p>
+            <NativeBannerAdd />
+          </div>
+          <hr />
+          <div className='my-2 py-5'>
+            <CommentForm />
+          </div>
         </div>
       </div>
     </>
