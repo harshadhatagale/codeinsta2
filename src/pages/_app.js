@@ -1,11 +1,11 @@
 import "@/styles/globals.css";
 import Head from "next/head";
-import Layout from "@/components/Layout";
+import Layout from "@/components/basics/Layout";
 export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
         <meta name="google-site-verification" content="cC14gQ_L4efyo09WY__vfk659sty_bFqlShlO3Z1OyY" />
         <script dangerouslySetInnerHTML={{
           __html: `

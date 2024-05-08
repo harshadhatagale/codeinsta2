@@ -1,5 +1,5 @@
 import React from 'react'
-import HeadTag from '@/components/HeadTag'
+import HeadTag from '@/components/basics/HeadTag'
 import styles from "../styles/about.module.css"
 export default function about() {
     return (

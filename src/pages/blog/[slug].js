@@ -2,11 +2,11 @@ import React, { useEffect, useState } from 'react'
 import { useRouter } from 'next/router';
 import { getPostByslug, getPostSlugs } from '../../../utils/fetchPosts';
 import ReactMarkdown from "react-markdown"
-import Header2 from '@/components/header2';
+import Header2 from '@/components/basics/header2';
 import rehypeHighlight from 'rehype-highlight';
 import "highlight.js/styles/atom-one-dark.css"
 import styles from "../../styles/post_detail_view.module.css"
-import HeadTag from '@/components/HeadTag';
+import HeadTag from '@/components/basics/HeadTag';
 import AddBanner from '@/components/ads/Add_banner';
 import { Roboto, Poppins, Merriweather } from 'next/font/google';
 import Head from 'next/head';
@@ -68,7 +68,7 @@ export default function DetailPostView({ post }) {
         <meta property='og:url' content='{`https://codeinsta.tech/blog/${post.slug}`}' />
         <meta property='og:type' content='article' />
       </Head>
-      <HeadTag title={post.title} description={post.content.slice(0, 160)} canUrl={`https://codeinsta.tech${currentUrl}`} />
+      <HeadTag title={post.title} description={post.description.slice(0, 160)} canUrl={`https://codeinsta.tech${currentUrl}`} />
       <Header2 content={post.title} />
       <div className=" dark:text-white leading-loose lg:px-56 md:px-18 px-6">
         <AddBanner />

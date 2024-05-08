@@ -1,7 +1,7 @@
 import React from 'react'
 import Post from '@/components/Blog/Post';
 import { Poppins } from 'next/font/google';
-import Header from '../header1';
+import Header from '../basics/header1';
 const poppins = Poppins({
     subsets: ["latin"],
     weight: ['100', '200', '300', '400', '500', '600', '800', '700', '900']

@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "../styles/privacy.module.css"
-import HeadTag from '@/components/HeadTag'
+import HeadTag from '@/components/basics/HeadTag'
 export default function privacy_policy() {
     return (
         <>

@@ -29,6 +29,8 @@ export default function Nav() {
           <Link href="/" className={`${pacifico.className} logo font-extrabold transition-all text-white serif`} onClick={CloseNav}>Code Insta</Link>
         </div>
         <div className="flex items-center justify-center gap-x-2">
+          <div className="absolute right-12">
+          </div>
           <div className={`${isNavOpen ? "active" : ""} hamburger cursor-pointer md:hidden`} onClick={OpenNav}>
             <div className="line w-8 h-1.5 bg-gray-700 m-2 dark:bg-white rounded-md"></div>
             <div className="line w-8 h-1.5 bg-gray-700 m-2 dark:bg-white rounded-md"></div>
@@ -40,6 +42,7 @@ export default function Nav() {
         <ul className='flex items-center text-black font-bold justify-center gap-8 dark:text-white lg:text-lg'>
           <li className='hover:text-cyan-400'><Link href="/" onClick={CloseNav}>Home</Link></li>
           <li className='hover:text-cyan-400'><Link href="/blog" onClick={CloseNav}>Blog</Link></li>
+          <li className='hover:text-cyan-400'><Link href="/tools" onClick={CloseNav}>Tools</Link></li>
           <li className='hover:text-cyan-400'><Link href="/about" onClick={CloseNav}>About Us!</Link></li>
           <li className='hover:text-cyan-400'><Link href="/privacy_policy" onClick={CloseNav}>Privacy Policy</Link></li>
         </ul>
