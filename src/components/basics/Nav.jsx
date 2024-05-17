@@ -39,7 +39,6 @@ export default function Nav() {
         <ul className='flex items-center text-black font-bold justify-center gap-8 dark:text-white lg:text-lg'>
           <li className='hover:text-cyan-400'><Link href="/" onClick={CloseNav}>Home</Link></li>
           <li className='hover:text-cyan-400'><Link href="/blog" onClick={CloseNav}>Blog</Link></li>
-          <li className='hover:text-cyan-400'><Link href="/tools" onClick={CloseNav}>Tools</Link></li>
           <li className='hover:text-cyan-400'><Link href="/about" onClick={CloseNav}>About Us!</Link></li>
           <li className='hover:text-cyan-400'><Link href="/privacy_policy" onClick={CloseNav}>Privacy Policy</Link></li>
         </ul>
