@@ -13,9 +13,6 @@ const pacifico= Pacifico({
 })
 export default function Nav() {
   const [isNavOpen, setIsNavOpen] = useState(false);
-  function notSmall() {
-
-  }
   function OpenNav() {
     setIsNavOpen(!isNavOpen);
   }
